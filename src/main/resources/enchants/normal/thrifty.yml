@@ -1,0 +1,30 @@
+#
+# Thrifty EcoEnchant
+#
+
+name: "Thrifty"
+description: Allows you to obtain spawn eggs by killing mobs.
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: uncommon
+
+general-config:
+  flags: []
+  targets:
+    - sword
+    - axe
+    - bow
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  requirements:
+    list: []
+    not-met-lore: []
+  conflicts: []
+  maximum-level: 10
+
+config:
+  chance-per-level: 10 # chance of dropping spawn_egg per level

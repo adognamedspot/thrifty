@@ -1,0 +1,4 @@
+name: Thrifty
+main: com.adognamedspot.thrifty.ThriftyMain
+version: ${projectVersion}
+author: A_DoG_NaMeD_SpoT
